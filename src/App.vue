@@ -3,7 +3,7 @@
     <div class="flex-shrink-0 py-12 text-center">
       <Hello></Hello>
       <div class="mt-2">
-        <a href="https://github.com/james2doyle/vue-tailwind-starter" class="text-sm font-semibold text-gray-600 hover:underline" v-text="message"></a>
+        <a href="https://github.com/james2doyle/allstartzi" class="text-sm font-semibold text-gray-600 hover:underline" v-text="message"></a>
       </div>
     </div>
   </div>
