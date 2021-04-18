@@ -1,27 +1,46 @@
 {
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "bash -c \"./node_modules/.bin/webpack --watch --progress --colors | tee -i >(bundle exec jekyll serve --livereload --incremental)\"",
-    "build": "./node_modules/.bin/webpack --progress --colors && bundle exec jekyll build"
+  "name": "vue-tailwind-starter",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "James Doyle",
+    "email": "james2doyle@gmail.com",
+    "url": "https://ohdoylerules.com/"
   },
-  "devDependencies": {
-    "@babel/core": "^7.10.0",
-    "@babel/preset-env": "^7.10.0",
-    "babel-loader": "^8.1.0",
-    "css-loader": "^3.5.3",
-    "mini-css-extract-plugin": "^0.9.0",
-    "postcss": "^7.0.31",
-    "postcss-loader": "^3.0.0",
-    "sass": "^1.26.5",
-    "sass-loader": "^8.0.2",
-    "style-loader": "^1.2.1",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "NODE_ENV=production vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "purgecss": "^2.2.1",
-    "stimulus": "^1.1.1",
-    "tailwindcss": "^1.4.6",
-    "turbolinks": "^5.2.0"
+    "core-js": "^3.8.0",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.8"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.9",
+    "@vue/cli-plugin-eslint": "^4.5.9",
+    "@vue/cli-plugin-pwa": "^4.5.9",
+    "@vue/cli-plugin-router": "^4.5.9",
+    "@vue/cli-service": "^4.5.9",
+    "@vue/composition-api": "^1.0.0-beta.20",
+    "autoprefixer": "^9.8.6",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^7.14",
+    "eslint-plugin-vue": "^7.2.0",
+    "postcss": "^7.0.35",
+    "postcss-import": "^12.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "engines": {
+    "node": ">=13",
+    "npm": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/james2doyle/vue-tailwind-starter.git"
   }
 }

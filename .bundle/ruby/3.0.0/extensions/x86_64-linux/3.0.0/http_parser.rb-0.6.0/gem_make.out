@@ -1,0 +1,16 @@
+current directory: /home/wm/src/wakematta/allstartzi/.bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/home/wm/.rbenv/versions/3.0.0/bin/ruby -I /home/wm/.rbenv/versions/3.0.0/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210418-46970-x52672.rb extconf.rb
+creating Makefile
+
+current directory: /home/wm/src/wakematta/allstartzi/.bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /home/wm/src/wakematta/allstartzi/.bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/wm/src/wakematta/allstartzi/.bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20210418-46970-a53eve
