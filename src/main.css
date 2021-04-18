@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+@import './sass/main.scss';
+
+body {
+  color: white;
+}
