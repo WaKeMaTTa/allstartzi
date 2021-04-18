@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f1a8a726ef946d69f54",
+    "revision": "91f3ab6928a55e458c9a",
     "url": "/allstartzi/css/app.c7786dd6.css"
   },
   {
@@ -8,12 +8,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/allstartzi/img/logo.6b03b6d2.png"
   },
   {
-    "revision": "bf25c7b4bfdfe11af55c3f2655cc23e4",
+    "revision": "11f2227b2c882c1833aa830b5c172235",
     "url": "/allstartzi/index.html"
   },
   {
-    "revision": "4f1a8a726ef946d69f54",
-    "url": "/allstartzi/js/app.775ca000.js"
+    "revision": "91f3ab6928a55e458c9a",
+    "url": "/allstartzi/js/app.371a08bd.js"
   },
   {
     "revision": "5e2827d430bf4c4bb0e4",
